@@ -1,0 +1,135 @@
+@media screen  and (max-width:820px){
+    .cart {
+        grid-template-columns: 1fr;
+      
+        > aside {
+          padding: 2rem;
+          border-radius: 0%;
+          > h2 {
+            font: 100 1.2rem "Roboto";
+      
+          }
+        }
+      }
+    
+}
+@media screen  and (max-width:980px){
+  .cartItem {
+    background-color: $tertiary;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }
+    > article {
+      margin-left: 55px;
+      h3{
+          font-size: 24px;
+      }
+      p{
+          font-size: 20px;
+          color: $primarydark;
+          
+      }
+  }
+}
+}
+@media screen  and (max-width:620px){
+  .cartItem {
+    background-color: $tertiary;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    img {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+    }
+    > article {
+      margin-left: 34px;
+      h3{
+          font-size: 20px;
+      }
+      p{
+          font-size: 20px;
+          color: $primarydark;
+          
+      }
+    }
+}
+}
+@media screen  and (max-width:520px){
+  .cartItem {
+    background-color: $tertiary;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    > article {
+      margin-left: 20px;
+      h3{
+          font-size: 15px;
+      }
+      p{
+          font-size: 15px;
+          color: $primarydark;
+          
+      }
+    }
+    > div {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      button {
+        width: 23px;
+        height: 23px;
+        border: none;
+        background-color: $primary;
+        color: $tertiary;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: $primarydark;
+        }
+      }
+      p{
+        width: 23px;
+        height: 23px;
+        display: grid;
+        place-items: center;
+        color:black;
+      }
+    }
+}
+}
+
+@media screen and (max-width:560px){
+  .cart{
+    grid-template-columns: 1fr;
+    > aside {
+      background-color: rgb(20, 103, 212);
+      > h2 {
+        font:200 1.3rem "Roboto";
+      }
+    }
+  }
+}
